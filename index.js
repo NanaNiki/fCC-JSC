@@ -7,7 +7,7 @@ function App() {
   // State variables initialized with an initial value and a corresponding setter function.
   const [input, setInput] = useState("");
   const [output, setOutput] = useState(input);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   // Toggle between light/dark mode, updating the HTML document accordingly
   const toggleDarkMode = () => {
